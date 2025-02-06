@@ -149,11 +149,12 @@ async def vsong(client, message: Message):
     
     for file in ("thumb.jpg", video_file):
         if file and os.path.exists(file):
-            os.remove(file)# Don't Remove Credit @ftmdeveloperz
+            os.remove(file)
+
+# Don't Remove Credit @ftmdeveloperz
 # Official Bot by Fᴛᴍ Dᴇᴠᴇʟᴏᴘᴇʀᴢ
 # Ask Doubts on Telegram: @ftmdeveloperz
 
-from __future__ import unicode_literals
 
 import os, requests, asyncio, time, wget
 from pyrogram import filters, Client
