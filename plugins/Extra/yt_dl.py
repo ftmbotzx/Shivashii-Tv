@@ -2,8 +2,6 @@
 # Official Bot by Fᴛᴍ Dᴇᴠᴇʟᴏᴘᴇʀᴢ
 # Ask Doubts on Telegram: @ftmdeveloperz
 
-from __future__ import unicode_literals
-
 import os, requests, asyncio, time, wget
 from pyrogram import filters, Client
 from pyrogram.types import Message
